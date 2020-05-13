@@ -1,0 +1,29 @@
+.upper {
+    letter-spacing: 0.1em;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.lower {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    color: rgb(75, 75, 75);
+    /* text-transform: uppercase; */
+}
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+body {
+    font-family: "Economica", sans-serif;
+    font-size: 1.0em;
+
+}
