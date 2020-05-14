@@ -1,29 +1,68 @@
-.upper {
+body {
+    font-family: "Economica", sans-serif;
+    font-size: 1.0em;
+}
+
+.sub {
     letter-spacing: 0.1em;
     font-size: 2.5em;
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
+    /* background-color: #e5e5e5 */
 }
 
-.lower {
+.sup {
     text-align: center;
+    font-size: 1.2em;
     margin: 0;
     padding: 10px 0 10px 0;
     color: rgb(75, 75, 75);
-    /* text-transform: uppercase; */
+
+    /* background-color: #e5e5e5 */
 }
 
-.center_image {
-    display: block;
+.image1 {
+    float: left;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
-    width: 20em;
-}
-
-body {
-    font-family: "Economica", sans-serif;
-    font-size: 1.0em;
+    margin: 0 10px 10px 10px;
+    border: solid 3px rgb(116, 116, 116);
 
 }
+
+.image2 {
+    float: right;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 10px 10px 10px;
+    border: solid 3px rgb(116, 116, 116);
+    display: block;
+}
+
+
+.intro {
+    display: block;
+    margin: 10px;
+    overflow: auto;
+    /* width: 50%; */
+}
+
+.race {
+    display: block;
+    margin: 10px;
+    overflow: auto;
+}
+
+@media only screen and (max-width:620px) {
+
+    /* For mobile phones: */
+    .intro,
+    .image1,
+    .image2 {
+        width: 100%;
+
+    }
