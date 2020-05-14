@@ -23,46 +23,42 @@ body {
     /* background-color: #e5e5e5 */
 }
 
-.image1 {
+.image {
     float: left;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
     margin: 0 10px 10px 10px;
-    border: solid 3px rgb(116, 116, 116);
+    border: solid 3px rgb(0, 0, 0);
 
 }
 
-.image2 {
-    float: right;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 10px 10px 10px;
-    border: solid 3px rgb(116, 116, 116);
-    display: block;
-}
-
-
-.intro {
+.intro,
+.about {
     display: block;
     margin: 10px;
     overflow: auto;
-    /* width: 50%; */
 }
 
-.race {
+.list {
+    display: inline-block;
+}
+
+.back {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 10px;
     display: block;
-    margin: 10px;
-    overflow: auto;
+
+
 }
 
 @media only screen and (max-width:620px) {
 
     /* For mobile phones: */
     .intro,
-    .image1,
-    .image2 {
+    .image {
         width: 100%;
 
     }
