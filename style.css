@@ -1,6 +1,9 @@
 body {
     font-family: "Economica", sans-serif;
     font-size: 1.0em;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, #C9D6FF 0%, #E2E2E2 100%);
+
 }
 
 .sub {
